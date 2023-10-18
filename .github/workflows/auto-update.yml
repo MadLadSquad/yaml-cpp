@@ -7,11 +7,13 @@ env:
   NAME: "yaml-cpp"
   
 on:
+  push:
+    branches: [ master ]
   schedule:
-    - cron: "0 5 * * *"
-    - cron: "0 11 * * *"
-    - cron: "0 17 * * *"
-    - cron: "0 23 * * *"
+    - cron: "0 0 * * *"
+    - cron: "0 6 * * *"
+    - cron: "0 12 * * *"
+    - cron: "0 18 * * *"
 
 jobs:
   Update-Fork:
