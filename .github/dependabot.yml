@@ -8,4 +8,7 @@ updates:
       github-actions:
         patterns:
           - "*"
+<<<<<<< HEAD
 
+=======
+>>>>>>> a80c57f (Create dependabot.yml)
